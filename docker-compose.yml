@@ -17,6 +17,8 @@ services:
     redis:
         container_name: redis
         image: redis:alpine  
+        volumes:
+            - "./conf/redis.conf:/etc/myredis.conf"
 
     php:
         build: .
