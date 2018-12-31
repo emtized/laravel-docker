@@ -19,6 +19,8 @@ services:
         image: redis:alpine  
         volumes:
             - "./conf/redis.conf:/etc/myredis.conf"
+        ports:
+            - "6379:6379"
 
     php:
         build: .
@@ -34,8 +36,9 @@ services:
           - "3306:3306"
       environment:
         - MYSQL_ROOT_PASSWORD=password
-
+      
     code:
         image: busybox
         volumes:
             - "./www:/var/www"
+
