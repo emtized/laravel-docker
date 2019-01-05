@@ -23,3 +23,13 @@ To get started, the following steps needs to be taken:
 - Run `docker-compose up -d` to start the containers.
 - Visit **http://localhost** to see your Laravel application.
 
+<p>&nbsp;</p>
+
+## Checking Containers 
+
+To Check containers Status, Names and other info you can use 
+
+`docker ps`
+
+Will show list on Runnig Containers 
+
