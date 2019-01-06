@@ -33,3 +33,10 @@ To Check containers Status, Names and other info you can use
 
 Will show list on Runnig Containers 
 
+<img src="https://github.com/emtized/laravel-docker/blob/master/img/docker-ps.png" />
+
+## Connectiong to a Container 
+You can use container name to connet by using below command : 
+`docker exec -it <CONTAINER NAME> sh `
+
+
