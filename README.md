@@ -25,8 +25,8 @@ To get started, the following steps needs to be taken:
 - copy "default.vhost" from in "sites" and rename to your application name 
 - then restart docker 
   `docker-compose restart`
-  
-- Visit **http://localhost** to see your Laravel application.
+
+- Visit **http://0.0.0.0** to see your Laravel application.
 
 <p>&nbsp;</p>
 
