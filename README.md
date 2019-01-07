@@ -21,6 +21,11 @@ To get started, the following steps needs to be taken:
 - `cd` to the project directory.
 - `cd` to `laravel-docker`.
 - Run `docker-compose up -d` to start the containers.
+- Put Your Laravel application into "www" folder 
+- copy "default.vhost" from in "sites" and rename to your application name 
+- then restart docker 
+  `docker-compose restart`
+  
 - Visit **http://localhost** to see your Laravel application.
 
 <p>&nbsp;</p>
